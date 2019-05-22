@@ -10,7 +10,7 @@ module.exports = {
       script    : "lib/bot.js",
       watch	: true,
       ignore_watch: ["node_modules", "mem"],
-      args: "$NICK $PWD"
+      args: "$NICK $SERVER_PWD"
     }
     //,
     // Second application
